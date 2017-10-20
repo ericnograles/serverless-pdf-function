@@ -1,0 +1,26 @@
+{
+  "name": "pdf-renderer",
+  "version": "1.0.0",
+  "description": "A Lambda function designed to render a given HTML string to PDF using Chromeless",
+  "engines": {
+    "node": "6.10.0"
+  },
+  "dependencies": {
+    "chromeless": "^1.3.0",
+    "follow-redirects": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericnograles/serverless-pdf-function.git"
+  },
+  "author": "Eric Nograles <grales@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericnograles/serverless-pdf-function/issues"
+  },
+  "homepage": "https://github.com/ericnograles/serverless-pdf-function#readme"
+}
